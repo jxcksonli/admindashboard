@@ -1,5 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+
 .container {
     display: grid;
     grid-template-columns: 1fr 4fr;
-    border: dashed red;
+    height: 100vh;
+}
+
+.sidebar {
+    display: grid;
+    grid-template-rows: 1fr 3fr 6fr;
+    background-color: #9ca3af;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    place-items: center;
+}
+
+.dashboard-icon {
+    width: 6vw;
+    height: 6vh;
+}
+
+.misc-icon {
+    width: 4vw;
+    height: 4vh;
 }
