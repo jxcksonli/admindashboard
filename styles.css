@@ -27,11 +27,19 @@
     display: grid;
     grid-template-columns: 1fr 3fr;
     place-items: center;
+    height: 15vh;
 }
 
 .dashboard-icon {
     width: 6vw;
     height: 6vh;
+}
+
+.other-tools{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: repeat(6, 1fr);
+    place-items: center;
 }
 
 .misc-icon {
