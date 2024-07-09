@@ -111,7 +111,7 @@
     font-size: 16px;
     border-radius: 10%;
     transition: 0.3s;
-    height: 4vh;
+    height: 3vh;
 
 }
 
@@ -124,6 +124,27 @@
     background-color: #e4e4e7;
     display: grid;
     grid-template-columns: 3fr 3fr 2fr;
+}
+
+.project-row{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5%;
+}
+
+.project-item{
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+}
+
+.project-response{
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr 1fr;
+}
+
+.response-icons{
+    height: 3vh;
+    width: 3vh;
 }
 
 .news{
